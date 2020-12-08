@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <script src="js/manufacturerForm.js" type="text/javascript"></script>
+    <form class="myForm" method="POST">
+        <table id="manufacturerTable" align="center">
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" placeholder="name" name="name" required="required" autofocus/></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td>
+                    <select name="country" required="required">
+                        <option value="Hungary">Hungary</option>
+                        <option value="USA">USA</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Spain">Spain</option>
+                        <option value="China">China</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Founded:</td>
+                <td><input type="date" name="founded" required="required" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input id="btn" type="submit" value="Confirm"/></td>
+            </tr>
+        </table>
+    </form>
+</html>

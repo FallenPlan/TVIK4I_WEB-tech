@@ -1,0 +1,182 @@
+body{
+    background-color: lightseagreen;
+}
+
+a:link{
+    color: maroon;
+    text-decoration: none;
+}
+
+a:visited{
+    color: maroon;
+    text-decoration: none;
+}
+
+#menuBar{
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px 10px 0;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+#content{
+    margin-top: 80px;
+}
+
+.menuButton a{
+    padding: 12px 25px 10px;
+}
+
+.menuButton a:hover{
+    background-color: grey;
+    padding: 12px 25px 10px;
+}
+
+a{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menuLogo img{
+    width: 38px;
+    padding: 0 5px 0 0;
+}
+
+th{
+    text-align: right;
+}
+
+#carTable, #manufacturerTable,
+#manuDelTable, #carDelTable{
+    border: 2px solid darkgreen;
+    margin-top: 180px;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+#carTable th, #manufacturerTable th,
+#manuDelTable th, #carDelTable th{
+    text-align: center;
+    padding: 5px 20px;
+    background-color: darkgreen;
+}
+
+#carTable tbody tr:nth-of-type(even), 
+#manufacturerTable tr:nth-of-type(even),
+#manuDelTable tr:nth-of-type(even), 
+#carDelTable tr:nth-of-type(even) {
+    background-color: lightgreen;
+}
+
+#carTable tr:last-of-type, 
+#manufacturerTable tr:last-of-type,
+#manuDelTable tr:last-of-type, 
+#carDelTable tr:last-of-type {
+    border-bottom: 2px solid darkgreen;
+}
+
+td{
+    border-bottom: 1px solid black ;
+    text-align: center;
+    padding: 7px 10px;
+}
+
+.indexPic img{
+    width: 400px;
+    height: 250px;
+    padding: 1px 30px 40px;
+}
+
+.indexPic th{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.indexPic td{
+    border: hidden;
+}
+
+.everything h1{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.everything{
+    font-family: cursive;
+    margin: 0 100px;
+}
+
+.everything p{
+    margin-bottom: 50px;
+}
+
+.par p{
+    text-align: center;
+}
+
+.images img{
+    width: 300px;
+    height: 190px;
+    padding: 4px 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.images img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.tablePos{
+    text-align: center;
+}
+
+#delC dBtn{
+    column-span: 2;
+}
+
+#delC{
+    border: 2px double darkred;
+    margin-top: 50px;
+}
+
+#delC td{
+    border: hidden;
+}
+
+#btnMD, #btnCD{
+    border: 1px solid;
+    background: none;
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin: 5px;
+    background-color: darkorange;
+    transition: 0.5s;
+}
+
+#btnMD:hover, #btnCD:hover{
+    background-color: darkred;
+    color: white;
+}
+
+#btn{
+    border: 1px solid;
+    background: none;
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin: 5px;
+    background-color: yellow;
+    transition: 0.5s;
+}
+
+#btn:hover{
+    background-color: darkgreen;
+    color: white;
+}
